@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zildjian Klyde Zara – Portfolio</title>
+  <link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav-container">
+    <div class="nav-content">
+      <button id="mobileNavButton" class="mobile-toggle">☰</button>
+      <ul id="navLinks" class="nav-list hidden-mobile">
+        <button class="nav-btn" data-target="home">Home</button>
+        <button class="nav-btn" data-target="projects">Projects</button> 
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main Sections -->
+  <main class="sections-container">
+
+    <!-- HOME SECTION -->
+    <section id="home" class="section active">
+      <!-- Hero -->
+ <div class="hero-split no-bg">
+    <img src="./assets/mypic.jpg" alt="Your Picture" class="hero-large-img">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-name">Zildjian Klyde Zara</h1>
+      <p class="hero-role">Fullstack Developer & Designer</p>
+      <button class="btn-primary nav-btn" data-target="contact">Contact Me</button>
+    </div>
+  </div>
+
+      <!-- Skills + Education -->
+  <div class="home-section">
+    <div class="home-block">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li style="--level: 40%"><i class="devicon-python-plain"></i><span>Python</span><div class="skill-bar"><span></span></div></li>
+        <li style="--level: 52%"><i class="devicon-html5-plain"></i><span>Web Design</span><div class="skill-bar"><span></span></div></li>
+        <li style="--level: 65%"><i class="devicon-premierepro-plain"></i><span>Video Editing</span><div class="skill-bar"><span></span></div></li>
+        <li style="--level: 30%"><i class="devicon-figma-plain"></i><span>Figma</span><div class="skill-bar"><span></span></div></li>
+        <li style="--level: 20%"><i class="devicon-tensorflow-original"></i><span>AI</span><div class="skill-bar"><span></span></div></li>
+        <li style="--level: 30%"><i class="devicon-github-original"></i><span>Git / GitHub</span><div class="skill-bar"><span></span></div></li>
+      </ul>
+    </div>
+
+    <div class="home-block">
+      <h2>Education</h2>
+      <div class="edu-item">
+        <strong>B.S. Information Technology</strong>
+        <span>— Cavite State University</span>
+        <p class="edu-date">2022 – Present</p>
+      </div>
+      <div class="edu-item">
+        <strong>TVL – ICT</strong>
+        <span>— Holy Rosary Academy Las Piñas City</span>
+        <p class="edu-date">2020 – 2022</p>
+      </div>
+      <p class="achievement">🏆 Most Creative · With Honors</p>
+    </div>
+  </div>
+</section>
+
+    <!-- CONTACT SECTION -->
+      <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-header"><h2>Contact Me</h2></div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/zildjianklyde.maglaque.5" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+        <a href="https://discord.com/users/431831382533079040" target="_blank"><i class="fab fa-discord"></i><span>Discord</span></a>
+        <a href="https://www.instagram.com/zildjianklyde/" target="_blank"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+        <a href="mailto:zildjianklyde@gmail.com"><i class="fa-regular fa-envelope"></i><span>Email</span></a>
+        
+      </div>
+            <a><span>0976325556</span></a>
+      <p class="contact-note">Always open to opportunities!</p>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+<section id="projects" class="section">
+  <div class="section-header">
+    <h2>My Projects</h2>
+  </div>
+
+  <div class="projects-container">
+    <!-- Project Item -->
+    <div class="project-card">
+      <img src="./assets/myproject1.png" alt="Project 1 Screenshot">
+      <h3>School Project</h3>
+      <p>A Music playlist of my top songs, albums, artist</p>
+      <a href="https://zildjianklyde.github.io/FavMusic/Music.html"target="_blank" class="btn-primary">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="./assets/myproject2.png" alt="Project 2 Screenshot">
+      <h3>School Project 2</h3>
+      <p>A coffee E-Commerce Website</p>
+      <a href="https://zildjianklyde.github.io/E-Commerce/" target="_blank" class="btn-primary">View Project</a>
+    </div>
+
+    <!-- Add more project cards as needed -->
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    &copy; 2026 Zildjian Klyde Zara
+  </footer>
+
+  <script src="./assets/scripts.js"></script>
+</body>
+</html>
